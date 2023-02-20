@@ -27,5 +27,4 @@ Route::get('/report_details', [ViewController::class, 'reportDetails'])->name('r
 Route::get('/senate_list_one', [ViewController::class, 'senateListOne'])->name('senate.list.one');
 Route::get('/senate_list_two', [ViewController::class, 'senateListTwo'])->name('senate.list.two');
 Route::get('/senate_list_three', [ViewController::class, 'senateListThree'])->name('senate.list.three');
-
-Route::get('/sort', [ViewController::class, 'sort'])->name('sort');
+Route::get('/result', [ViewController::class, 'result'])->name('result');
