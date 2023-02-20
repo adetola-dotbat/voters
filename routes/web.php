@@ -22,7 +22,10 @@ Route::get('/', function () {
 Route::get('/presidential_details', [ViewController::class, 'viewPresidential'])->name('pdetails');
 Route::get('/graph', [ViewController::class, 'graph'])->name('graph');
 Route::get('/score_data', [ViewController::class, 'scoreData'])->name('sdata');
+Route::get('/reps_data', [ViewController::class, 'repsData'])->name('reps.data');
 Route::get('/report_details', [ViewController::class, 'reportDetails'])->name('report.details');
 Route::get('/senate_list_one', [ViewController::class, 'senateListOne'])->name('senate.list.one');
 Route::get('/senate_list_two', [ViewController::class, 'senateListTwo'])->name('senate.list.two');
 Route::get('/senate_list_three', [ViewController::class, 'senateListThree'])->name('senate.list.three');
+
+Route::get('/sort', [ViewController::class, 'sort'])->name('sort');
